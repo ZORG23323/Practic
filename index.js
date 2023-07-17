@@ -29,7 +29,7 @@
 // // // let c = 2;
 // // // a = b + a;
 // // // a = a / c;
-// // // c = c % b;//Модуляция 
+// // // c = c % b;//Модуляция
 // // // console.log(a,b,c);
 
 // // // Больше и меньше
@@ -48,7 +48,7 @@
 // // // let y = 2;
 // // // let z = 3;
 // // // console.log(x > y || y < z);
-// // //! не 
+// // //! не
 // // // let x = false;
 // // // console.log(!x);
 
@@ -69,15 +69,15 @@
 // // // listPay3.pop();//Удаление последнего элемента массива
 // // // listPay3.shift();//Удаление первого элемента массива
 // // // listPay3.splice(3,5);//удаление элементов с конкретного эелемента массива и кол-тво(сколько, с какого)
-// // // delete listPay3[5];//Удаляет опеределенное значаение массива оставляя пустое значение 
+// // // delete listPay3[5];//Удаляет опеределенное значаение массива оставляя пустое значение
 // // // //Поиск элемента
 // // // let findeIndex = listPay3.indexOf(7);//(8)
 // // // let findeIndex2 = listPay3.indexOf('BMWw');//(-1) не найден
 // // // let animal = ["dog","horse","horse","cat","platypus","dog"];
-// // // let lastHorse = animal.lastIndexOf("horse");//находит последний индекс в массиве 
+// // // let lastHorse = animal.lastIndexOf("horse");//находит последний индекс в массиве
 // // // let names = ["Kit","James","Abe","Dick","Arnold","Ben"];
 // // // names.sort();//Сортирует по порядку (Алфавит,числа...)
-// // // names.reverse();//Меняет местами первый и последний элемент 
+// // // names.reverse();//Меняет местами первый и последний элемент
 
 // // // Практическое занятие 3.2
 // // // let list1 = ["Milk","Bread","Apples"];
@@ -137,7 +137,7 @@
 // // // make: "lada",
 // // // model: "priora",
 // // // color: "red",
-// // // nameCar: "Lastochka" 
+// // // nameCar: "Lastochka"
 // // // };
 
 // // // myCar["color"] = "blue";
@@ -150,17 +150,17 @@
 // // const people = {
 // //     friends:[]
 // // };
-// // let friend1= { 
+// // let friend1= {
 // //     name: "joe",
 // //     lastname: "black",
 // //     id: 1
 // // };
-// // let friend2= { 
+// // let friend2= {
 // //     name: "jim",
 // //     lastname: "brown",
 // //     id: 2
 // // };
-// // let friend3= { 
+// // let friend3= {
 // //     name: "jared",
 // //     lastname: "padalecki",
 // //     id: 3
@@ -202,7 +202,7 @@
 // // // console.log(messeage)
 // // Тернарные операторы
 // //если(if) операнд1, тогда(then) операнд2, иначе (else) операнд3.
-// // //let access = 18 < ? "заперещено" : "разрешенно" 
+// // //let access = 18 < ? "заперещено" : "разрешенно"
 // // // Практическое занятие 4.3
 // // const id = false;
 // // const messeage = (id) ? "Доступ разрешен" : "Доступ запрещен";
@@ -218,9 +218,9 @@
 // //     case value3:
 // //         //исполняемый код
 // //         break;
-// //     default:// если не нашел делает по умолчанию 
+// //     default:// если не нашел делает по умолчанию
 // //         //исполняемый код
-// //         break;    
+// //         break;
 // //     };
 // // // Практическое занятие 4.4
 
@@ -244,7 +244,7 @@
 // //         break;
 // //     case 4:
 // //         answer = "может или не может быть"
-// //         break;            
+// //         break;
 // //     case 5:
 // //         answer = "может я ,а может быть"
 // //         break;
@@ -275,7 +275,7 @@
 // //         break;
 // //     case 4:
 // //         output+= "хлеб"
-// //         break;            
+// //         break;
 // //     case 5:
 // //     case 8:
 // //         output+= "мелочь"
@@ -351,22 +351,43 @@
 //  for (let x = 1; x < 10; x++) {
 //     let stat = x % 2 ? true : false;
 //     let temp = {
-//         name : `lessone ${x}`, status: stat 
+//         name : `lessone ${x}`, status: stat
 //     };
 //     myWork.push(temp);
 //  };
 //  console.log(myWork);
   // Практическое занятие 5.4
-  let myTable = [];
-  let rows = 3;
-  let cols = 8;
-  let counter = 0;
-  for (y = 0;y < rows; y++){
-    tempTable = [];
-    for (x = 0;x < cols;x++){
-        counter++;
-        tempTable.push(counter);
-    }
-    myTable.push(tempTable);
-  }
-console.table(myTable);
+//   let myTable = [];
+//   let rows = 3;
+//   let cols = 8;
+//   let counter = 0;
+//   for (y = 0;y < rows; y++){
+//     tempTable = [];
+//     for (x = 0;x < cols;x++){
+//         counter++;
+//         tempTable.push(counter);
+//     }
+//     myTable.push(tempTable);
+//   }
+// console.table(myTable);
+
+// Практическое занятие 6.1
+// function adder(a,b){
+// return a + b;
+// }
+// const value1 = 10;
+// const value2 = 133 2;
+// let age =  adder(value1,value2);
+// console.log(age);
+
+// Практическое занятие 6.1
+// const adj = ["Super","Poper","Duper","Evil"];
+// function myFun() {
+//  questions = prompt("What is you name?");
+//  nameAdj = Math.floor(Math.random() * adj.length);
+//  console.log(adj[nameAdj] + " " + questions );
+// }
+// myFun();
+
+// Практическое занятие 6.1
+
