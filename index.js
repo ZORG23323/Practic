@@ -356,7 +356,7 @@
 //     myWork.push(temp);
 //  };
 //  console.log(myWork);
-  // Практическое занятие 5.4
+// Практическое занятие 5.4
 //   let myTable = [];
 //   let rows = 3;
 //   let cols = 8;
@@ -390,4 +390,50 @@
 // myFun();
 
 // Практическое занятие 6.1
+// function adder(a , b ){
+//   return a+b
+// }
+// let val1 = 10
+// let val2 = 12
+// console.log(adder(val1,val2))
 
+// // Практическое занятие 6.2
+// const adj = ["super","puper","duper"]
+// function myFun(){
+// const question = prompt("Как тебя зовут ?")
+// const nameAdj = Math.floor(Math.random() * adj.length)
+// console.log(adj[nameAdj]+ " " + question)  
+// }
+// myFun()
+
+// Практическое занятие 6.3
+// const val1 = 142
+// const val2 = 11
+// let operator = "-"
+// function calcu(a,b, op){
+//   if (op = "-") {
+//     console.log(a-b)
+//   }
+//   else {
+//   console.log(a+b)
+// }}
+// calcu(val1,val2,operator)
+
+// Практическое занятие 6.3
+let arr = []
+
+for (let x = 0; x<10; x++) {
+  let val1 = 5 * x
+  let val2 = x * x
+let  res = calcu(val1,val2,"+")
+arr.push(res)
+}
+
+console.log(arr)
+function calcu(a,b, op){
+  if (op == "-") {
+    return(a-b)
+  }
+  else {
+  return(a+b)
+}}
