@@ -419,21 +419,51 @@
 // }}
 // calcu(val1,val2,operator)
 
-// Практическое занятие 6.3
-let arr = []
+// Практическое занятие 6.4
+// let arr = []
 
-for (let x = 0; x<10; x++) {
-  let val1 = 5 * x
-  let val2 = x * x
-let  res = calcu(val1,val2,"+")
-arr.push(res)
-}
+// for (let x = 0; x<10; x++) {
+//   let val1 = 5 * x
+//   let val2 = x * x
+// let  res = calcu(val1,val2,"+")
+// arr.push(res)
+// }
 
-console.log(arr)
-function calcu(a,b, op){
-  if (op == "-") {
-    return(a-b)
-  }
-  else {
-  return(a+b)
-}}
+// console.log(arr)
+// function calcu(a,b, op){
+//   if (op == "-") {
+//     return(a-b)
+//   }
+//   else {
+//   return(a+b)
+// }}
+
+// Практическое занятие 6.5
+
+// let val = '1000';
+
+// (function (){
+//   let val='1000'
+//   console.log(val)
+// })
+// ()
+
+// let result = (function () {
+//   let val = 'Laurance'
+//   return val
+// })()
+// console.log(result);
+// console.log(val);
+
+// (function (val){
+//   console.log(`My name is ${val}`);
+// })('Laurence')
+
+let arr = [1,2,3,4]
+let y = arr.length
+let x = y>4
+if(x) {
+  console.log('my bame is Vasia');
+} else {
+  console.log('my name is jorg');
+};
