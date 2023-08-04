@@ -459,11 +459,23 @@
 //   console.log(`My name is ${val}`);
 // })('Laurence')
 
-let arr = [1,2,3,4]
-let y = arr.length
-let x = y>4
-if(x) {
-  console.log('my bame is Vasia');
-} else {
-  console.log('my name is jorg');
-};
+// let arr = [1,2,3,4]
+// let y = arr.length
+// let x = y>4
+// if(x) {
+//   console.log('my bame is Vasia');
+// } else {
+//   console.log('my name is jorg');
+// };
+
+// Практическое занятие 6.6
+
+function serchFactorial(x) {
+  if (x = 0) {
+    return serchFactorial(x = 1)
+    console.log(serchFactorial(x));
+  } else {
+
+  }
+
+}
