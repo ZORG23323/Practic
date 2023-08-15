@@ -468,14 +468,28 @@
 //   console.log('my name is jorg');
 // };
 
-// Практическое занятие 6.6
+// // Практическое занятие 6.6
+// function calcFactorial(x) {
+//   if (x === 0) {
+//     return 1;
+//   }
+//   else {
+//     return x * calcFactorial(--x);
+//   }
+// }
+// console.log(calcFactorial(12));
 
-function serchFactorial(x) {
-  if (x = 0) {
-    return serchFactorial(x = 1)
-    console.log(serchFactorial(x));
-  } else {
+// // Практическое занятие 6.8
+// const arr = function (x) {
+//   console.log(x);
+// }
+// arr('ddd 4')
 
-  }
+// function arr1(x){
+//   console.log(x);
+// }
+// arr1("ddd 3")
 
-}
+i = 121
+let test2 = (num) => num + i- + 5
+console.log(test2(14));
